@@ -1,0 +1,81 @@
+{
+  "id": "6a3069db-c406-485d-9691-0d0b8a872ac8",
+  "version": "2.0",
+  "name": "SkillFactory",
+  "url": "https://skillfactory.ru",
+  "tests": [{
+    "id": "b2e1fc38-3a16-4303-8db6-5f2f28ced4ce",
+    "name": "FirstTest",
+    "commands": [{
+      "id": "b94590a4-06d4-4285-a544-c2a525454198",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54e5c861-b1b0-4111-bae2-e5a687ae99a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ed40944-718d-452a-a85c-b84f5d49512c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Программы",
+      "targets": [
+        ["linkText=Программы", "linkText"],
+        ["css=.tn-elem__1292127741568973828471 > .tn-atom", "css:finder"],
+        ["xpath=(//a[contains(text(),'Программы')])[2]", "xpath:link"],
+        ["xpath=//div[@id='rec129212774']/div/div/div[25]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/')])[4]", "xpath:href"],
+        ["xpath=//div[25]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b077b6c-f1f4-4132-b371-0a3787f0b0a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t397__tab:nth-child(5) > .t397__title",
+      "targets": [
+        ["css=.t397__tab:nth-child(5) > .t397__title", "css:finder"],
+        ["xpath=//div[@id='rec224630311']/div/div/div/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4a1feb7-72f6-4a28-a432-6295eaaf676e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Узнать больше",
+      "targets": [
+        ["linkText=Узнать больше", "linkText"],
+        ["css=.tn-elem__2246303381564106469657 > .tn-atom", "css:finder"],
+        ["xpath=(//a[contains(text(),'Узнать больше')])[13]", "xpath:link"],
+        ["xpath=//div[@id='rec224630338']/div/div/div[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/game-dev')])[3]", "xpath:href"],
+        ["xpath=//div[18]/div/div/div[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3d99cc-7ec9-4002-87af-f5c03a81503d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f9c785a7-4a69-4fde-88cf-33239f14d91b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b2e1fc38-3a16-4303-8db6-5f2f28ced4ce"]
+  }],
+  "urls": ["https://skillfactory.ru/"],
+  "plugins": []
+}
